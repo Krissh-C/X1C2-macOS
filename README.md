@@ -57,14 +57,14 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 - DRM Content (more info below)
 - Fan Control using [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 
-# What doesn't work
-- **MAJOR ISSUE:** Adaptive row does not work (To be fixed. SMC issues probably)
+# What doesn't work/Broken Stuff
+- **MAJOR ISSUE:** Adaptive row does not work
 - AirDrop
-- DRM on Safari, Apple TV, Quicktime, etc (Use Chromium powered browser/Firefox)
-- FileVault (config.plist not yet configured for it)
-- Black screen after boot (Close the lid, wait a few seconds/let computer go to sleep and open to fix)
-- Double press shift for caps lock (Use Karabiner to set a keybind to any key. For example, I have mine set so that my right shift has become a caps lock button. Double press works after setting up Karabiner. You should be having 2 caps lock buttons after all this lol)
-- Touchscreen (ELAN USB based touchscreen. Only I2C ones are supported at the moment)
+- DRM on Safari, Apple TV, Quicktime, etc
+- FileVault
+- Black screen after boot
+- Double press shift for caps lock
+- Touchscreen 
 
 # Not Tested
 - Universal Control
