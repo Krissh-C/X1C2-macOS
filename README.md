@@ -58,6 +58,7 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 - Fan Control using [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 
 # What doesn't work/Broken Stuff
+**Please check the issues tab for more info/workarounds.**
 - **MAJOR ISSUE:** Adaptive row does not work
 - AirDrop
 - DRM on Safari, Apple TV, Quicktime, etc
