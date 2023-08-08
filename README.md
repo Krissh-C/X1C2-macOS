@@ -33,7 +33,7 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 
 # Screenshots
 
-![Screen Shot 2023-08-08 at 10 15 33 AM](https://github.com/Krissh-C/X1C2-macOS/assets/117280851/746ce51d-fcb7-4680-b949-4247e6bbc3ae)
+![Screen Shot 2023-08-08 at 10 15 33 AM](https://github.com/Krissh-C/X1C2-macOS/assets/117280851/84479f72-5d85-4293-97bf-294dce649721)
 
 # What Works
 - Keyboard
