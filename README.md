@@ -41,7 +41,7 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 - Battery indicator
 - USB ports
 - Display Auto-Brightness
-- Touchscreen (check closed issued for more info)
+- Touchscreen (check closed issues for more info)
 - HDMI
 - Audio (Speakers, Headphone Jack and Bluetooth)
 - Bluetooth
