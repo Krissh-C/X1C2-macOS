@@ -41,6 +41,7 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 - Battery indicator
 - USB ports
 - Display Auto-Brightness
+- Touchscreen (check closed issued for more info)
 - HDMI
 - Audio (Speakers, Headphone Jack and Bluetooth)
 - Bluetooth
@@ -65,7 +66,6 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 - FileVault
 - Black screen after boot
 - Double press shift for caps lock
-- Touchscreen 
 
 # Not Tested
 - Universal Control
