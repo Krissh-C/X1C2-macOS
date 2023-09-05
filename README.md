@@ -56,6 +56,7 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 - Handoff, Continuity
 - AirPlay
 - DRM Content (more info below)
+- FileVault (Once configured. Check [FileVault | Opencore](https://dortania.github.io/OpenCore-Post-Install/universal/security/filevault.html)) (may release new version soon)
 - Fan Control using [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 
 # What doesn't work/Broken Stuff
@@ -63,13 +64,9 @@ This hakcintosh will be complete only with [YogaSMC](https://github.com/zhen-zen
 - **MAJOR ISSUE:** Adaptive row does not work
 - AirDrop
 - DRM on Safari, Apple TV, Quicktime, etc
-- FileVault
-- Black screen after boot
-- Double press shift for caps lock
+- Universal Control, SideCar (This is a SMBIOS limitation. Using [OCLP](https://dortania.github.io/OpenCore-Legacy-Patcher/) to get to Ventura should fix this. [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) does make the options available, but they do not work.)
 
 # Not Tested
-- Universal Control
-- Sidecar (wired)
 - USBMap may not include all ports (One Link connector, Mini DP and Mini Ethernet may not work as I have never tested them, please remap if you wish to use these ports)
 
 # Credits
