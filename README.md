@@ -1,9 +1,3 @@
-# Notes
-Please do keep in mind this EFI is heavily bloated, there's some useless stuffs present. "If it ain't broke, don't fix it" mentality going on here.
-
-# Issues
-For any issues, please open an issue or check if there's a solution already available in the issues section. Issues with solutions will be under closed issues. 
-
 # macOS on ThinkPad X1C2
 This repository is made to help run macOS on a ThinkPad X1C2. **Now with OCLP!!**
 
@@ -18,6 +12,9 @@ This hakcintosh will be complete with the following apps:
 - [Opencore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) - **REQUIRED FOR POST INSTALL**. This will help patch the GPU so you can have acceleration in macOS. Select Post install root patches, after installing.
 
 **CAUTION**: Test drive this configuration once using a USB flash drive before you move it to the main EFI partition. I am not responsible for any damages incurred.
+
+# Issues
+For any issues, please open an issue or check if there's a solution already available in the issues section. Issues with solutions will be under closed issues. 
 
 # Hardware Info
 
@@ -35,7 +32,7 @@ This hakcintosh will be complete with the following apps:
 
 # Screenshots
 
-![Screenshot 2023-10-22 at 11 06 14 AM](https://github.com/Krissh-C/X1C2-macOS/assets/117280851/b22f42dc-7ee9-4c70-9cbe-46919ca95e9d)
+![Screenshot 2023-10-23 at 6 36 27 PM](https://github.com/Krissh-C/X1C2-macOS/assets/117280851/4d1763ab-7e37-449c-99ca-cc9a26d7a68c)
 
 # What Works
 - Keyboard
@@ -47,8 +44,8 @@ This hakcintosh will be complete with the following apps:
 - HDMI
 - Audio (Speakers, Headphone Jack and Bluetooth)
 - Bluetooth
-- Ethernet
-- iCloud Services (iMessage, FaceTime, iCloud Drive)
+- Ethernet (Tested with Andorid's USB tethering)
+- iCloud Services
 - GPU Acceleration (Please check closed issues for more info)
 - Camera
 - Microphone
@@ -57,17 +54,19 @@ This hakcintosh will be complete with the following apps:
 - CPU Power Management
 - AirPlay
 - DRM Content (more info below)
-- FileVault
+- FileVault (Works but disabled for OCLP patches)
 - Fan Control
 
 # What doesn't work/Broken Stuff
 **Please check the issues tab for more info/workarounds.**
 - **MAJOR ISSUE:** Adaptive row does not work after sleep (Fn mode also will not switch)
-- Handoff and everything else that depends on Handoff 
 - AirDrop
-- DRM on Safari, Apple TV, Quicktime, etc
+- DRM on Safari, Apple TV, Quicktime, etc (Use Chromium based browser eg.Chrome, Arc, etc or Firefox)
 - Universal Control, SideCar (wireless)
 
+# Not tested:
+- iPhone widgets (Apparently does not work with iPad widgets which would make more sense on a laptop display. WTF Apple)
+  
 # Credits
 - [Acidanthera](https://github.com/acidanthera)
 - [Opencore install guide](https://dortania.github.io/OpenCore-Install-Guide/)
