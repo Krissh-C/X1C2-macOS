@@ -5,7 +5,7 @@ This should help you get started on hackintoshing and any updates can be applied
 
 I recommend going through the [Opencore install guide](https://dortania.github.io/OpenCore-Install-Guide/) once to fully understand everything that is going on here.
 
-If doing a fresh install, please use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate a new SMBIOS (Use MacBookPro14,1)
+If doing a fresh install, please use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate a new SMBIOS (Use MacBookPro15,2)
 
 This hakcintosh will be complete with the following apps:
 - [YogaSMC](https://github.com/zhen-zen/YogaSMC) - Enables features such as fan control, Led control, etc. The Lenovo Vantage for macOS of sorts
