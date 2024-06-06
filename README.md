@@ -67,9 +67,9 @@ My main goal with this is get unsupported macOS versions and features up and run
 * [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS information (Use `MacBookPro15,2` **only** as the USB map will not work with other SMBIOSes)
 * [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) for access to it's utilities, specifically `macrecovery` to download an online macOS installer if needed
 * [Opencore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) as it is **required** for enabling GPU acceleration right after installation
-* A compatible storage medium with enough space for macOS (If dual-booting, please install macOS before Windows. Refer [here](https://dortania.github.io/OpenCore-Multiboot/) for more information. I do not provide help with multibooting related issues. You are on your own with this)
 * [YogaSMC](https://github.com/zhen-zen/YogaSMC)
 * [MountEFI](https://github.com/corpnewt/MountEFI)
+* A compatible storage medium
 
 ### Instructions:
 * Download the [latest](https://github.com/Krissh-C/X1C2-macOS/releases/latest) version of the EFI
@@ -173,29 +173,28 @@ Congratulations you've successfully booted your hackintosh! Here's some things t
 * Battery indicator
 * USB ports
 * Display Auto-Brightness
-* Touchscreen (check closed issues for more info)
+* Touchscreen
 * HDMI
 * Audio (Speakers, Headphone Jack and Bluetooth)
 * Bluetooth
-* Ethernet (Tested with Andorid's USB tethering)
+* Ethernet
 * iCloud Services
-* GPU Acceleration (Please check closed issues for more info)
+* GPU Acceleration (with OCLP)
 * Camera
 * Microphone
 * Sleep/Wake
 * Trackpad with gestures
 * CPU Power Management
 * AirPlay
-* DRM Content (more info below)
-* FileVault (Works but disabled for OCLP patches)
+* DRM Content
+* FileVault (Disabled for OCLP patches)
 * Fan Control
 
-### What doesn't work/Broken Stuff:
+### What doesn't work:
 **Please check the issues tab for more info/workarounds**
-* Adaptive row does not wake up after sleep (Fn mode also will not switch prior to that)
-* AirDrop (Wifi Kexts Limitation)
-* Universal Control, Wireless Sidecar (Wifi Kexts Limitation)
-* DRM on Safari, Apple TV, Quicktime, etc (Use Chromium based browser eg.Chrome, Arc, etc or Firefox)
+* Adaptive row does not wake up after sleep and <kbd>Fn</kbd> mode will not switch (SMC Issue maybe)
+* AirDrop, iMessage, Universal Control, Wireless Sidecar (Wifi Kext Limitation)
+* DRM on Safari, Apple TV, Quicktime, etc (Use Chromium based broswer/Firefox)
 
 ### Not tested:
 * iPhone widgets (Part of Handoff)
