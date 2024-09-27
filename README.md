@@ -7,6 +7,11 @@ A project using [Acidanthera's OpenCorePkg](https://github.com/acidanthera/OpenC
 
 My main goal with this is get unsupported macOS versions and features up and running on this hackintosh after hardware support has been lost using OCLP
 
+[![OpenCore](https://img.shields.io/badge/OpenCore-1.00-14b2d7
+)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![macOS](https://img.shields.io/badge/macOS-Sonoma-726eff
+)](https://www.apple.com/macos/) [![Download](https://img.shields.io/badge/Download-Latest-green)](https://github.com/Krissh-C/X1C2-macOS/releases/latest)
+
+
 ----------
 
 ### Notable features of this EFI:
@@ -152,7 +157,7 @@ Congratulations you've successfully booted your hackintosh! Here's some things t
 * **Beauty Treatment (Optional):**
   * In `config.plist`
       * Remove `-v` from `boot-args` to turn off Verbose Mode
-      * Turn off the picker
+      * Turn off the picker. Set `ShowPicker` to `False`
       * Change the scan policy to `2687747` to hide all NTFS drives from Opencore
       * Turn on Auto login
       
