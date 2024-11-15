@@ -166,8 +166,8 @@ Congratulations you've successfully booted your hackintosh! Here's some things t
 ### Screenshots:
 
 <div align="center">
-             <img src="images/AboutX1C2-14.5.png" alt="About this mac screen open on macOS desktop" />
-             <h5>14.5 running on X1C2</h5>
+             <img src="images/AboutX1C2-14.7.1.png" alt="About this mac screen open on macOS desktop" />
+             <h5>Sonoma 14.7.1 running on X1C2</h5>
 </div>
 
 ----------
