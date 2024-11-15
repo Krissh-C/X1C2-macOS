@@ -61,6 +61,40 @@ My main goal with this is get unsupported macOS versions and features up and run
 
 ----------
 
+### Kexts:
+|**Kext**|**Version**|
+|:-|:-|
+|Airportitlwm|2.3.0|
+|AMFIPass|1.4.1|
+|AppleALC|1.9.2|
+|BlueToolFixup|2.6.9|
+|BrightnessKeys|1.0.3|
+|ECEnabler|1.0.5|
+|FeatureUnlock|1.1.7|
+|IntelBluetoothFirmware|2.4.0|
+|IntelBTPatcher|2.4.0|
+|IntelMausi|1.0.7|
+|Itlwm|2.3.0|
+|KDKlessWorkaround|-|
+|Lilu|1.6.9|
+|NVMeFix|1.1.1|
+|RestrictEvents|1.1.5|
+|SMCBatteryManager (VirtualSMC)|1.3.4|
+|SMCLightSensor (VirtualSMC)|1.3.4|
+|SMCProcessor (VirtualSMC)|1.3.4|
+|SMCSuperIO (VirtualSMC)|1.3.4|
+|USBMap|-|
+|VirtualSMC|1.3.4|
+|VoodooI2CHID|2.8|
+|VoodooI2CSynaptics|2.8|
+|VoodooPS2Controller|2.3.6|
+|VoodooRMI|1.4.1|
+|VoodooSMBus|1.4.1|
+|WhateverGreen|1.6.8|
+|YogaSMC|1.5.3|
+
+----------
+
 ## Get Started!
 
 > [!Important]
